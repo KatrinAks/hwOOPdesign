@@ -4,6 +4,25 @@ import org.junit.jupiter.api.Test;
 public class RadioTest {
 
     @Test
+    public void countRadioTest() {
+        Radio stat = new Radio(12);
+
+        stat.setLimitStation(11);
+
+        int expected = 11;
+        int actual = stat.getCurrentStation();
+
+        Assertions.assertEquals(expected, actual);
+
+
+    }
+
+    @Test
+    public void maxRadioTest() {
+        Radio stat = new Radio();
+    }
+
+    @Test
     public void shouldGetStation() {
         Radio stat = new Radio();
 

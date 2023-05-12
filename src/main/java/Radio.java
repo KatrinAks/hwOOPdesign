@@ -1,6 +1,6 @@
 public class Radio {
     private int currentStation;
-    public int currentVolume;
+    private int currentVolume;
 
     public int getCurrentStation() {
         return currentStation;

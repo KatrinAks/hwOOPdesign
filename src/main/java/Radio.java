@@ -2,7 +2,7 @@ public class Radio {
     private int currentStation;
     private int countStation;
     private int maxStation;
-    public int currentVolume;
+    private int currentVolume;
 
     public Radio(int countStations) {
         this.maxStation = countStations - 1;
